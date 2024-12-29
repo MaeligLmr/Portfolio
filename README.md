@@ -1,4 +1,4 @@
-# Portfolio - Maëlig LAMARRE
+# [Portfolio](https://www.maelig-lamarre.fr) - Maëlig LAMARRE
 
 ---
 
@@ -42,9 +42,9 @@ npm run build
 ```
 
 Contact
-📧 Email : votre-email@example.com
-📞 Téléphone : [votre numéro de téléphone]
-🌐 LinkedIn : Votre profil LinkedIn
+📧 Email : [maelig.lamarre49@gmail.com](maelig.lamarre49@gmail.com)
+📞 Téléphone : +33645921143
+🌐 [Linkedin](www.linkedin.com/in/maëlig-lamarre-aa9351258)
 
 ---
 
@@ -83,8 +83,8 @@ npm run build
 ```
 
 Contact
-📧 Email: your-email@example.com
-📞 Phone: [your phone number]
-🌐 LinkedIn: Your LinkedIn profile
+📧 Email : [maelig.lamarre49@gmail.com](maelig.lamarre49@gmail.com)
+📞 Phone: +33645921143
+🌐 [Linkedin](www.linkedin.com/in/maëlig-lamarre-aa9351258)
 
 © 2024 Maëlig Lamarre | All rights reserved.
