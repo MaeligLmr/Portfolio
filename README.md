@@ -42,9 +42,9 @@ npm run build
 ```
 
 Contact
-📧 Email : [maelig.lamarre49@gmail.com](maelig.lamarre49@gmail.com)
+📧 Email : maelig.lamarre49@gmail.com
 📞 Téléphone : +33645921143
-🌐 [Linkedin](www.linkedin.com/in/maëlig-lamarre-aa9351258)
+🌐 [Linkedin](https://www.linkedin.com/in/maëlig-lamarre-aa9351258)
 
 ---
 
@@ -83,8 +83,8 @@ npm run build
 ```
 
 Contact
-📧 Email : [maelig.lamarre49@gmail.com](maelig.lamarre49@gmail.com)
+📧 Email : maelig.lamarre49@gmail.com
 📞 Phone: +33645921143
-🌐 [Linkedin](www.linkedin.com/in/maëlig-lamarre-aa9351258)
+🌐 [Linkedin](https://www.linkedin.com/in/maëlig-lamarre-aa9351258)
 
 © 2024 Maëlig Lamarre | All rights reserved.
