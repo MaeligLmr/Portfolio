@@ -118,7 +118,7 @@ const projectsEn = [
       id: "TicketFlutter",
       title: "TicketFlutter",
       description: "Development of a web and Android event ticketing application",
-      presentation: "As part of my first semester of the third year in MMI, I developed, in collaboration with a fellow student, an event ticketing application. It features a client side, where users can like and purchase tickets for an event, and an admin side, which allows event creation, modification, deletion, and order tracking. This application was developed using Flutter and integrates a Supabase database.",
+      presentation: "As part of my first semester of the third year in MMI, I developed, in a duo with my classmate, an event ticketing application. It features a client side, where users can like and purchase tickets for an event, and an admin side, which allows event creation, modification, deletion, and order tracking. This application was developed using Flutter and integrates a Supabase database.",
       tags: ["Dart", "Flutter", "Figma", "Supabase"],
       images: [
           { src: "/images/ticketflutter-connexion.webp", alt: "TicketFlutter - Login" },
@@ -128,7 +128,9 @@ const projectsEn = [
       ],
       links: [
           { ref: "https://www.figma.com/design/S1MvUXuaBWTmEWKXrczknm/ticketflutter?node-id=0-1&t=zLFqJZnImYbSeOk8-1", text: "Figma" },
-          { ref: "/docs/ticketflutter-guide-utilisation.pdf", text: "User Guide" }
+          { ref: "/docs/ticketflutter-guide-utilisation.pdf", text: "User Guide" },
+          { ref: "https://github.com/Niesmer/ticket_flutter", text: "GitHub" }
+
       ],
       color: "#2D5AE2"
   }

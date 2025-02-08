@@ -128,7 +128,9 @@ const projectsFr = [
     ],
     links: [
         { ref: "https://www.figma.com/design/S1MvUXuaBWTmEWKXrczknm/ticketflutter?node-id=0-1&t=zLFqJZnImYbSeOk8-1", text: "Figma" },
-        { ref: "/docs/ticketflutter-guide-utilisation.pdf", text: "Guide d'utilisation" }
+        { ref: "/docs/ticketflutter-guide-utilisation.pdf", text: "Guide d'utilisation" },
+        { ref: "https://github.com/Niesmer/ticket_flutter", text: "GitHub" }
+
     ],
     color: "#2D5AE2"
 }
