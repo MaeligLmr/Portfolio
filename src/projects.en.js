@@ -92,6 +92,8 @@ const projectsEn = [
       ],
       links: [
         { ref: "/docs/halles-benchmark.pdf", text: "Benchmark" },
+        { ref: "/docs/halles-scenario.pdf", text: "Game Scenario" },
+
       ],
       color: "#b29972",
     },
@@ -112,6 +114,25 @@ const projectsEn = [
       ],
       color: "#5e3472",
     },
+    {
+      id: "TicketFlutter",
+      title: "TicketFlutter",
+      description: "Development of a web and Android event ticketing application",
+      presentation: "As part of my first semester of the third year in MMI, I developed, in collaboration with a fellow student, an event ticketing application. It features a client side, where users can like and purchase tickets for an event, and an admin side, which allows event creation, modification, deletion, and order tracking. This application was developed using Flutter and integrates a Supabase database.",
+      tags: ["Dart", "Flutter", "Figma", "Supabase"],
+      images: [
+          { src: "/images/ticketflutter-connexion.webp", alt: "TicketFlutter - Login" },
+          { src: "/images/ticketflutter-liste-evenements.webp", alt: "TicketFlutter - Event list" },
+          { src: "/images/ticketflutter-evenement.webp", alt: "TicketFlutter - Event details" },
+          { src: "/images/ticketflutter-ajout-evenement.webp", alt: "TicketFlutter - Add an event" }
+      ],
+      links: [
+          { ref: "https://www.figma.com/design/S1MvUXuaBWTmEWKXrczknm/ticketflutter?node-id=0-1&t=zLFqJZnImYbSeOk8-1", text: "Figma" },
+          { ref: "/docs/ticketflutter-guide-utilisation.pdf", text: "User Guide" }
+      ],
+      color: "#2D5AE2"
+  }
+  
   ];
   
   export default projectsEn;

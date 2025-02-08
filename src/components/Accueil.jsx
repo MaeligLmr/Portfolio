@@ -8,6 +8,7 @@ import CV from './CV';
 import { motion, useInView } from 'framer-motion';
 import { useLanguage } from '../langageContext.js';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { GitHub } from '@mui/icons-material';
 
 
 const Accueil = () => {
@@ -114,7 +115,8 @@ const Accueil = () => {
           <LinkedInIcon className="mr-2" /> {language === "fr" ? "Mon LinkedIn" : "My Linkedin"}
         </a>
       </p>
-      <p>Téléphone: <a href="tel:+33645921143" style={{color : colorP}}>+33 6 45 92 11 43</a></p>
+      <p><a href="https://github.com/MaeligLmr" style={{color : colorP}}><GitHub className="mr-2" /> {language === "fr" ? "Mon GitHub" : "My GitHub"}</a></p>
+      <p><a href="tel:+33645921143" style={{color : colorP}}>+33 6 45 92 11 43</a></p>
     </div>
   </footer>
   </>
