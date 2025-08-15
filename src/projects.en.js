@@ -133,7 +133,39 @@ const projectsEn = [
 
       ],
       color: "#2D5AE2"
-  }
+  }, 
+  
+  {
+  "id": "ParcAIO",
+  "title": "AIO Asset Management",
+  "description": "Development of a web application for asset management during my internship at AIO",
+  "presentation": "This project was carried out as part of my final-year internship at AIO, a company specialized in designing and implementing Lean tools to optimize industrial processes. In a context where monitoring sold equipment is essential to ensure long-term performance, management expressed the need for an asset management tool. \nThe objective was to centralize all information related to commercialized devices (particularly the karakuri) in order to notify customers of available updates, anticipate maintenance based on component wear, and enhance customer relations through proactive follow-up. \nThe project was developed in Next.js with an Airtable database, chosen by management for its flexibility, and integrates intuitive interfaces to facilitate access to key information. This work transformed a Lean challenge — reducing service interruptions and optimizing product lifecycle — into an efficient digital solution.",
+  "tags": ["Next.js", "Leaflet", "Airtable", "Lean"],
+  "images": [
+    { "src": "/images/gestion-parc-carte-equipements.webp", "alt": "Asset Management - Equipment location map" },
+    { "src": "/images/gestion-parc-details-equipement.webp", "alt": "Asset Management - Equipment details including information, buyer, logs, spare parts, and related service calls" },
+    { "src": "/images/gestion-parc-liste-appels.webp", "alt": "Asset Management - List of service calls (coding, buyer, and company)" }
+  ],
+  "links": [],
+  "color": "#0E5A94"
+},
+
+{
+  "id": "FlotteAIO",
+  "title": "AIO Fleet Management",
+  "description": "Development of a web application for fleet management during my internship at AIO",
+  "presentation": "This project was carried out as part of my final-year internship at AIO, a company specialized in designing and implementing Lean tools to optimize industrial processes. Some of the equipment prepared in-house is available for rental, and managing these mobile assets — particularly Flight Cases (protective containers for sensitive equipment) and AMRs (autonomous mobile robots used in production) — has become a major challenge. These assets, often moved between client sites, require enhanced visibility to reduce losses and ensure availability. For this reason, a tracking application was developed. \nThe fleet management application uses Next.js and Airtable to enable real-time tracking of equipment movements through an interactive map interface. The system centralizes location and usage data, facilitating logistical planning and rapid response to unforeseen events. This project demonstrates how digitalization can enhance Lean efficiency by improving asset traceability and mobile equipment management, ultimately contributing to greater operational performance.",
+  "tags": ["Next.js", "Leaflet", "Airtable", "Lean"],
+  "images": [
+    { "src": "/images/gestion-flotte-accueil.webp", "alt": "Fleet Management - Fleet map" },
+    { "src": "/images/gestion-flotte-liste-voyages.webp", "alt": "Fleet Management - List of trips" },
+    { "src": "/images/gestion-flotte-ajout-lieu.webp", "alt": "Fleet Management - Location addition form with GPS search" },
+    { "src": "/images/gestion-flotte-details-produit.webp", "alt": "Fleet Management - Product details" }
+  ],
+  "links": [],
+  "color": "#FF5CCB"
+}
+
   
   ];
   

@@ -83,8 +83,8 @@ const projectsFr = [
     title: "D'une Halle à l'autre",
     description: "Réalisation d'un jeu d'énigme VR et mobile à l'occasion de l'ouverture des nouvelles Halles Gourmandes à Laval.",
     presentation:
-      "Dans le cadre de mon premier semestre de troisième année MMI, je développe, au sein d'un groupe de 4 personnes, un jeu d'énigmes retraçant l'histoires des différentes halles à Laval à l'occasion de l'ouverture des Nouvelles Halles Gourmandes à Laval fin Juin 2024. Ce projet nous est demandé par Laval Patrimoine, notre commanditaire. Pour ce projet, j'ai été formé davantage à la méthode AGILE que nous appliquons au sein de mon groupe. Pour ma part j'ai commencé par faire, en duo avec un autre membre de mon groupe, un benchmark détaillé poursuivi de la conception et rédaction du scénario de jeu et des énigmes. Je m'occupe également de la réalisation des différents éléments 3D.",
-    tags: ["EN COURS", "VR", "Unity", "3D", "Blender", "AGILE"],
+      "Dans le cadre de mon premier semestre de troisième année MMI, j'ai développé, au sein d'un groupe de 4 personnes, un jeu d'énigmes retraçant l'histoires des différentes halles à Laval à l'occasion de l'ouverture des Nouvelles Halles Gourmandes à Laval fin Juin 2025. Ce projet nous a été demandé par Laval Patrimoine, notre commanditaire. Pour ce projet, j'ai été formé davantage à la méthode AGILE que nous appliquons au sein de mon groupe. Pour ma part j'ai commencé par faire, en duo avec un autre membre de mon groupe, un benchmark détaillé poursuivi de la conception et rédaction du scénario de jeu et des énigmes. Je me suis également occupée de la réalisation des différents éléments 3D.",
+    tags: [ "VR", "Unity", "3D", "Blender", "AGILE"],
     images: [
       //{ src: "/images/d-une-halle-a-l-autre.svg", alt: "d'une halle à l'autre" },
       { src: "/images/enigme-carte.webp", alt: "énigme 1 : la carte" },
@@ -102,8 +102,8 @@ const projectsFr = [
     title: "MMI Next Level",
     description: "Développement d'une application web de recherche de formations post-mmi",
     presentation:
-      "Dans le cadre de mon premier semestre de troisième année MMI, je développe, au sein d'un groupe de 15 personnes, une application aidant les MMI à la recherche d'une future formation à trouver celle qui leur convient. Pour ce projet, nous avons dû réaliser un gros travail de recherche afin de répertorier les différents masters en lien avec MMI. Suite à cette recherche, j'ai participé à une tournée d'interview d'anciens élèves ayant été dans la difficulté à trouver des formations l'an passé afin de nommer les éléments à mettre en avant dans notre application. Nous sommes maintenant, avec l'équipe de développeurs, en train de développer l'application qui manipulera une API REST, en React.js et Node.js.",
-    tags: ["EN COURS", "React.js", "Node.js", "API REST"],
+      "Dans le cadre de mon premier semestre de troisième année MMI, j'ai développé, au sein d'un groupe de 15 personnes, une application aidant les MMI à la recherche d'une future formation à trouver celle qui leur convient. Pour ce projet, nous avons dû réaliser un gros travail de recherche afin de répertorier les différents masters en lien avec MMI. Suite à cette recherche, j'ai participé à une tournée d'interview d'anciens élèves ayant été dans la difficulté à trouver des formations l'an passé afin de nommer les éléments à mettre en avant dans notre application. Nous avons enfin, avec l'équipe de développeurs développé l'applicationqui manipule une API REST, en React.js et Node.js.",
+    tags: [ "React.js", "Node.js", "API REST"],
     images: [
       { src: "/images/mmi-next-level.webp", alt: "MMI Next Level", icon : true },
       { src: "/images/mmi-next-level-wireframe-accueil.webp", alt: "mmi next level master après mmi" },
@@ -133,7 +133,38 @@ const projectsFr = [
 
     ],
     color: "#2D5AE2"
-}
+}, 
+  {
+    id: "ParcAIO",
+    title: "Gestion de Parc AIO",
+    description: "Développement d'une application web de gestion de Parc dans le cadre de mon stage chez AIO",
+    presentation: "Ce projet a été réalisé dans le cadre de mon stage de fin de cycle chez AIO chez AIO, une entreprise spécialisée dans la conception et la mise en œuvre d’outils Lean pour l’optimisation des processus industriels. Dans un contexte où le suivi des équipements vendus est essentiel pour garantir leur performance dans la durée, la direction a exprimé le besoin d’un outil de gestion de parc. \nL’objectif était de centraliser l’ensemble des informations liées aux dispositifs commercialisés (notamment les karakuri) afin de notifier les clients des mises à jour disponibles, d’anticiper la maintenance en fonction de l’usure des composants, et d’améliorer la relation client grâce à un suivi proactif.\nLe projet a été développé en Next.js avec une base de données Airtable choisie par la direction pour sa souplesse, et intègre des interfaces intuitives facilitant l’accès aux informations clés. Ce travail a permis de traduire une problématique Lean — la réduction des interruptions de service et l’optimisation du cycle de vie produit — en une solution numérique performante.",
+    tags: ["Next.js", "Leaflet", "Airtable", "Lean"],
+    images: [
+        { src: "/images/gestion-parc-carte-equipements.webp", alt: "Gestion de Parc - Carte des équipements" },
+        { src: "/images/gestion-parc-details-equipement.webp", alt: "Gestion de Parc - Détails d’un équipement, ses infos, son acheteurs, ses logs, ses spare parts et ses appels associés" },
+        { src: "/images/gestion-parc-liste-appels.webp", alt: "Gestion de Parc - Liste des appels (codification, acheteur et entreprise" }
+    ],
+    links: [ ],
+    color: "#0E5A94"
+},
+
+  {
+    id: "FlotteAIO",
+    title: "Gestion de Flotte AIO",
+    description: "Développement d'une application web de gestion de Flotte dans le cadre de mon stage chez AIO",
+    presentation: "Ce projet à été réalisé dans le cadre de mon Stage de fin de cycle chez AIO, une entreprise spécialisée dans la conception et la mise en œuvre d’outils Lean pour l’optimisation des processus industriels. Certains équipements préparés chez eux sont à louer et la gestion de ces équipements mobiles, notamment des Flight Cases (conteneurs protecteurs pour matériels sensibles) et des AMR (robots mobiles autonomes utilisés en production), est devenue un enjeu majeur. Ces matériels, souvent déplacés entre sites clients, nécessitent une visibilité accrue pour limiter les pertes et garantir leur disponibilité, et c’est pour cette raison qu’une application permettant de les suivre a été mise en place.\n L’application de gestion de flotte développée utilise Next.js et Airtable pour permettre le suivi en temps réel des déplacements de ces équipements via une interface cartographique interactive. Le système centralise les données de localisation et d’usage, facilitant la planification logistique et la réactivité face aux imprévus. Ce projet illustre comment la digitalisation peut renforcer l’efficacité Lean en améliorant la traçabilité et la gestion des actifs mobiles, contribuant ainsi à une meilleure performance opérationnelle.",
+    tags: ["Next.js", "Leaflet", "Airtable", "Lean"],
+    images: [
+        { src: "/images/gestion-flotte-accueil.webp", alt: "Gestion de Flotte - Cart de la flotte" },
+        { src: "/images/gestion-flotte-liste-voyages.webp", alt: "Gestion de Flotte - Liste des voyages" },
+        { src: "/images/gestion-flotte-ajout-lieu.webp", alt: "Gestion de Flotte - Formulaire d’ajout de lieu avec recherche GPS" },
+        { src: "/images/gestion-flotte-details-produit.webp", alt: "Gestion de Flotte - Détails d’un Produit" }
+    ],
+    links: [ ],
+    color: "#FF5CCB"
+},
+
 
 
 ];
