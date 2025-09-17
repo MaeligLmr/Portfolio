@@ -82,8 +82,8 @@ const projectsEn = [
       title: "From One Hall to Another",
       description: "Creation of a VR and mobile puzzle game for the opening of the new Gourmet Halls in Laval.",
       presentation:
-        "As part of my first semester of the third year in MMI, I am developing a puzzle game within a group of 4 people. The game traces the history of the different halls in Laval for the opening of the new Gourmet Halls in Laval in late June 2024. This project was commissioned by Laval Patrimoine. For this project, I was further trained in the AGILE methodology, which we apply within my group. I started by working, alongside another member, on a detailed benchmark followed by the design and writing of the game scenario and puzzles. I also handle the creation of various 3D elements.",
-      tags: ["IN PROGRESS", "VR", "Unity", "3D", "Blender", "AGILE"],
+        "As part of my first semester of the third year in MMI, I developed a puzzle game within a group of 4 people. The game traces the history of the different halls in Laval for the opening of the new Gourmet Halls in Laval in late June 2025. This project was commissioned by Laval Patrimoine. For this project, I was further trained in the AGILE methodology, which we applied within my group. I started by working, alongside another member, on a detailed benchmark followed by the design and writing of the game scenario and puzzles. I also handled the creation of various 3D elements and the development of two riddles.",
+      tags: [ "VR", "Unity", "3D", "Blender", "AGILE"],
       images: [
         //{ src: "/images/d-une-halle-a-l-autre.svg", alt: "from one hall to another" },
         { src: "/images/enigme-carte.webp", alt: "puzzle 1: the map" },
@@ -102,8 +102,8 @@ const projectsEn = [
       title: "MMI Next Level",
       description: "Development of a web application for finding post-MMI training programs.",
       presentation:
-        "As part of my first semester of the third year in MMI, I am developing, within a group of 15 people, an application that helps MMI students in their search for further studies to find the most suitable one. For this project, we conducted extensive research to list the different master's programs related to MMI. Following this research, I participated in interviews with alumni who had difficulty finding programs last year to identify key elements for our application. We are now, with the developer team, building the application, which will interact with a REST API, using React.js and Node.js.",
-      tags: ["IN PROGRESS", "React.js", "Node.js", "REST API"],
+        "As part of my first semester of the third year in MMI, I developed, within a group of 15 people, an application that helps MMI students in their search for further studies to find the most suitable one. For this project, we conducted extensive research to list the different master's programs related to MMI. Following this research, I participated in interviews with alumni who had difficulty finding programs last year to identify key elements for our application. We then, with the developer team, built the application, which interacts with a REST API, using React.js and Node.js.",
+      tags: [ "React.js", "Node.js", "REST API"],
       images: [
         { src: "/images/mmi-next-level.webp", alt: "MMI Next Level", icon : true },
         { src: "/images/mmi-next-level-wireframe-accueil.webp", alt: "mmi next level masters after mmi" },
