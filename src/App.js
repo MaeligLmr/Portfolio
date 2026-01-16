@@ -9,7 +9,7 @@ function App() {
   return (
     <LanguageProvider>
 
-    <Router>
+    <Router basename='/Portfolio'>
       <Routes>
         {/* Route pour la page d'accueil */}
         <Route path="/" element={<Accueil />} />

@@ -1,11 +1,10 @@
-import React, { useRef, useState, useEffect } from 'react';
-import Etoile from './Etoile';
+import { useRef, useState, useEffect } from 'react';
 import projectsFr from '../projects';
 import projectsEn from '../projects.en.js'
 import Carousel from './Carousel';
 import Email from './Email';
 import CV from './CV';
-import { motion, useInView } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useLanguage } from '../langageContext.js';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { GitHub } from '@mui/icons-material';
@@ -23,7 +22,6 @@ const Accueil = () => {
 
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { threshold: 0.2 }); // L'élément doit être au moins à 20% visible
   const [colorP, setColorP] = useState('#6aaa6a');
 
   const handleColorChange = (colorP) => {
@@ -68,7 +66,7 @@ const Accueil = () => {
         </div>
         <div className=" flex flex-col sm:flex-row gap-4 flex-nowrap justify-between items-center box-border">
           <div id="photo" className='w-2/3 sm:w-1/4 flex justify-center items-center'>
-            <img src='/images/maelig-lamarre.svg' className='rounded-xl'></img>
+            <img src='/Portfolio/images/maelig-lamarre.svg' alt='maëlig lamarre' className='rounded-xl'></img>
           </div>
           <div id="presentation" className={`p-4 w-full sm:w-3/4 text-lg overflow-hidden rounded-xl flex flex-col justify-center`}
             style={{ backgroundColor: colorP + '33' }}>

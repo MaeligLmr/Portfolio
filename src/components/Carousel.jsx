@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import { motion, useInView } from 'framer-motion';
 import CarouselItem from './CarouselItem';
